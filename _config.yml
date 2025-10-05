@@ -1,22 +1,21 @@
 title: Hello, world! I'm Dean Normington
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+  University of Law Leeds mature student studying tort law, common law, modern ethics, academic
+  and digital skills, criminal law, contract law and public law.
+permalink: ":title/"
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dnormingtonlaw.uk" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Dean Normington # add your name
-author-img: # add your photo
-about-author: # add description
+author-img: profile-picture.jpeg # add your photo
+about-author: University of Law # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-github: dean-js/dnormingtonlaw.uk # add your Github handle
+social-linkedin: deannormlawuk # add your Linkedin handle
+social-email: dean.normington94@law.ac.uk # add your Email address
 
 # Disqus
 discus-identifier: # add your discus identifier
