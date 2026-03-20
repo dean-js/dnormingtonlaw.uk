@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting a Legal Career as a Mature Student
+title: Starting a New Study in Computing
 date: 2025-05-10 17:05:00 +0000
 description:
 img: # Add image post (optional)
@@ -10,8 +10,8 @@ tags: [university, law]
 
 ## This is a heading
 
-As a mature student at 25 I made the initial change from IT and unpaid care work to taking up a Access to HE course during lockdown debating the treatment of offenders when arrested by the police watching police interceptors with my grandmother. While maintaing the caring duties she suggested I should go back to studying and take a course, it was after the lockdown had been lifted I took the advice, applied to college, and passed my access to HE and gaining a placement at unviersity which I am currently studying my first year as a mature student who has no legal connections and little legal knowledge, embracing the elements of studying and adapting to a legal career has been quite the change and with this portfolio I can document this journey.
+As a mature student at 25 I made the initial change from law to computing after a careers meeting and some personal realisations being able to set aside certain morals and personal views I could not plus I enjoyed the creativity behind previous IT study academically and in my personal life, throughout school i was never accepted onto computer science or coding courses due to grades as time has gone on I have used my own personal time to try and learn
 
-As a new change in life I wanted to take this oppurtunity as a fresh start, do things diffeently and have a outlook while also bringing skills forward from non-legal work and experience that other may not be able to bring to the table and enhance overall personal development and commit to more self reflection.
+As a new change in life I wanted to take this oppurtunity as a fresh start, do things diffeently and have a outlook while also bringing skills forward from previous study and experience that others may not be able to bring to the table and enhance overall personal development and commit to more self reflection. I have recently gained a placement on computing course which should hopefully start the platfrom to having academic credibility in computing and coding aswell as having a protfolio of projects to showcase understanding knoweldge
 
-My goal with this website overall not only to showcase myself as a person and to enhance network and potential work oppurtunities and collaborations but also enhance other soft-skills while helping other students who may be experiencing similar issues, I hope the content on this website will help others in the future.
+My goal with this website overall not only to showcase myself as a person and to enhance network and potential work oppurtunities and collaborations but also enhance other soft-skills and coding while showcasing the highs and lows of someone who does not come from the traditional background through blog posts not being able to acess the same oppurtunties as others due to academic setbacks this website and various projects being a reminder and living proof in the end it was possible.
