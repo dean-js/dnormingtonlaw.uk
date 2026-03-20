@@ -84,6 +84,7 @@ I'm planning to enhance this app with:
 - Drag-and-drop functionality
 - Categories for tasks
 - A more polished UI
+- Less Co-Pilot / AI use
 
 Feel free to check out the [live demo](https://example.com/todo-app) or the [source code](https://github.com/dean-js/todo-app) on GitHub.
 
