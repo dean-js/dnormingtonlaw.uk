@@ -1,8 +1,10 @@
-@import 'normalize';
-@import 'syntax';
-@import 'variables';
+@import "normalize";
+@import "syntax";
+@import "variables";
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -11,9 +13,9 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: $body-color;
-  background-color: #fbfbfb;
+  background-color: $dark;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -71,7 +73,8 @@ table {
   text-align: left;
   border-collapse: collapse;
 }
-table td, table.blueTable th {
+table td,
+table.blueTable th {
   border: 1px solid #aaa;
   padding: 3px 2px;
 }
@@ -83,7 +86,7 @@ table tr:nth-child(even) {
 }
 table thead {
   background: #a9c4d1;
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
+  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #a9c4d1 100%);
   border-bottom: 1px solid #8c8c8c;
 }
 table thead th {
@@ -101,11 +104,58 @@ table tfoot {
   font-weight: bold;
   color: #fff;
   background: #d0e4f5;
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
   border-top: 2px solid #444;
 }
 table tfoot td {
   font-size: 14px;
+}
+
+.navbar {
+  background-color: $dark;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid $gray;
+}
+
+.nav-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.nav-logo {
+  color: $dark-blue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: $body-color;
+  text-decoration: none;
+  font-weight: 300;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: $dark-blue;
 }
 
 .wrapper {
@@ -113,7 +163,8 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.post,
+.article-page {
   background-color: #fff;
 }
 
@@ -127,7 +178,8 @@ table tfoot td {
   color: $white;
 }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table;
 }
@@ -137,13 +189,13 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
-@import 'parts/home-page';
+@import "parts/home-page";
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
-@import 'parts/post-page';
+@import "parts/post-page";
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
-@import 'parts/tag';
+@import "parts/tag";
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
-@import 'media';
+@import "media";

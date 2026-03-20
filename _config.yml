@@ -1,7 +1,6 @@
 title: Hello, world! I'm Dean Normington
 description: > # this means to ignore newlines until "baseurl:"
-  University of Law Leeds mature student studying tort law, common law, modern ethics, academic
-  and digital skills, criminal law, contract law and public law.
+  Transitioning from law to computing: a mature student's journey into software development, coding projects, and tech innovation.
 permalink: ":title/"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dnormingtonlaw.uk" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Dean Normington # add your name
 author-img: profile-picture.jpeg # add your photo
-about-author: University of Law # add description
+about-author: Software Developer & Law Graduate # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: dean-js/dnormingtonlaw.uk # add your Github handle

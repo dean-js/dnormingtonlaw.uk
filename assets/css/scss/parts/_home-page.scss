@@ -1,3 +1,25 @@
+.hero {
+  background-color: $gray;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: $white;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: $body-color;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -9,7 +31,7 @@
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: $white;
+  background-color: $dark;
 }
 .about {
   margin: 0 0 40px;
@@ -38,7 +60,7 @@
     padding-bottom: 15px;
     font-size: 16px;
     text-transform: uppercase;
-    color: $dark;
+    color: $white;
     font-weight: 700;
     &::after {
       content: "";
@@ -196,6 +218,119 @@ a.older-posts:hover {
 
 a.newer-posts:hover {
   transform: translateX(-5px);
+}
+
+.portfolio-grid {
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio-grid h1 {
+  color: $white;
+  margin-bottom: 1rem;
+}
+
+.portfolio-grid p {
+  color: $body-color;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: $gray;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: $white;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: $body-color;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  color: $dark-blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.about-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-section h1 {
+  color: $white;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  color: $body-color;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learning-path {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.learning-item {
+  background-color: $gray;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.learning-item h3 {
+  color: $dark-blue;
+  margin-bottom: 1rem;
+}
+
+.learning-item ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.learning-item li {
+  color: $body-color;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.learning-item li::before {
+  content: "•";
+  color: $dark-blue;
+  position: absolute;
+  left: 0;
 }
 
 .pagination {

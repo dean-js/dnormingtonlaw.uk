@@ -2,6 +2,18 @@
 layout: main
 ---
 
+<section class="hero">
+  <div class="hero-content">
+    <h1>From Law to Computing</h1>
+    <p>
+      Welcome to my journey of transitioning from a law background to the
+      exciting world of software development. As a mature student, I'm
+      passionate about coding, building projects, and embracing the tech
+      industry.
+    </p>
+  </div>
+</section>
+
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %} {% assign image_url = "/assets/img/" | prepend: site.baseurl
