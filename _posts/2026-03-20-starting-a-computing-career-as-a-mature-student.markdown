@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting a Computing Career as a Mature Student
-date: 2025-10-05 17:05:00 +0000
+date: 2026-03-20 17:05:00 +0000
 description: A personal reflection on transitioning from law to computing as a mature student, overcoming academic setbacks, and building a new career path.
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
