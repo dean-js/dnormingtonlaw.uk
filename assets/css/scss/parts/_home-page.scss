@@ -73,6 +73,31 @@
   padding: 0;
 }
 
+.footer-meta {
+  margin-top: 1rem;
+  color: $dark-gray;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.footer-meta a {
+  color: $body-color;
+  text-decoration: none;
+}
+
+.footer-meta a:hover {
+  color: $dark-blue;
+}
+
+.footer-copyright {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 .footer-social a {
   color: $body-color;
   display: inline-flex;
