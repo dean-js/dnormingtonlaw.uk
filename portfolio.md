@@ -10,13 +10,13 @@ title: Portfolio
   <div class="projects-grid">
     <!-- Add your projects here -->
     <div class="project-card">
-      <h3>Project 1</h3>
-      <p>Description of project 1.</p>
+      <h3>FocusTask - To- Do List app</h3>
+      <p>Description of FocusTask Project</p>
       <a href="#" class="project-link">View Project</a>
     </div>
     <div class="project-card">
-      <h3>Project 2</h3>
-      <p>Description of project 2.</p>
+      <h3>Legal Fee Calculator</h3>
+      <p>Description of Legal Fee Calculator.</p>
       <a href="#" class="project-link">View Project</a>
     </div>
     <!-- Add more projects as needed -->
