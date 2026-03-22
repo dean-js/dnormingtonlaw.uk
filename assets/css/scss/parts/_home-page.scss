@@ -351,7 +351,7 @@ a.newer-posts:hover {
   background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
   padding: 3rem 1rem;
   border-radius: 12px;
-  max-width: 750px;
+  max-width: 900px;
   margin: 0 auto 3rem;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -370,6 +370,8 @@ a.newer-posts:hover {
 .contact-section form {
   display: grid;
   gap: 1rem;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .contact-section label {
@@ -420,6 +422,71 @@ a.newer-posts:hover {
 .contact-section button:hover {
   background-color: darken($dark-blue, 7%);
   transform: translateY(-1px);
+}
+
+.blog-section {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  padding: 2rem 1rem;
+}
+
+.posts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
+
+.post-item {
+  background-color: $white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.4rem 1.2rem;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.post-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 0, 0, 0.18);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.16);
+}
+
+.post-item h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.6rem;
+}
+
+.post-item h2 a {
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.post-item h2 a:hover {
+  color: $dark-blue;
+  border-color: $dark-blue;
+}
+
+.post-item .post-meta {
+  font-size: 0.92rem;
+  color: $dark-gray;
+  margin-bottom: 0.8rem;
+}
+
+.post-item p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.post-item .read-more {
+  color: $dark-blue;
+  font-weight: 700;
 }
 
 .pagination {
