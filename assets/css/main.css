@@ -51,7 +51,8 @@ h1 {
  */
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -68,7 +69,7 @@ figure {
  */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -101,7 +102,7 @@ abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -227,7 +228,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -236,7 +238,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -246,9 +249,9 @@ select { /* 1 */
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-html [type=button],
-[type=reset],
-[type=submit] {
+html [type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
 
@@ -256,9 +259,9 @@ html [type=button],
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -267,9 +270,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -288,7 +291,7 @@ fieldset {
  */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -316,18 +319,18 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -335,7 +338,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -343,8 +346,8 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -403,7 +406,7 @@ template {
 .highlight {
   background-color: #0d1117;
   -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   margin: 0;
   color: #f0f6fc;
 }
@@ -413,7 +416,7 @@ template {
   font-weight: 400;
   border: 1px solid #30363d;
   -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
 
@@ -611,7 +614,7 @@ template {
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -742,11 +745,11 @@ table tfoot td {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 0.5rem;
 }
 
@@ -755,8 +758,8 @@ table tfoot td {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.5rem;
   color: #00d4aa;
   font-size: 1.2rem;
@@ -768,9 +771,9 @@ table tfoot td {
   width: 28px;
   height: 28px;
   -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 2px solid #ffffff;
 }
 
@@ -849,18 +852,18 @@ table tfoot td {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden;
   border: 3px solid #ffffff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
 }
 
 .hero-avatar img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
@@ -882,7 +885,7 @@ table tfoot td {
 .social-links-top li a {
   padding: 0.35rem;
   -webkit-border-radius: 999px;
-          border-radius: 999px;
+  border-radius: 999px;
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
   -webkit-transition: all 0.2s ease;
@@ -894,8 +897,8 @@ table tfoot td {
   color: #00d4aa;
   background: rgba(255, 255, 255, 0.2);
   -webkit-transform: translateY(-1px);
-      -ms-transform: translateY(-1px);
-          transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .site-footer {
@@ -910,8 +913,8 @@ table tfoot td {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.75rem;
   color: #cccccc;
   font-size: 0.95rem;
@@ -923,8 +926,8 @@ table tfoot td {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.6rem;
   margin: 0;
   padding: 0;
@@ -939,11 +942,11 @@ table tfoot td {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.25rem;
 }
 
@@ -961,8 +964,8 @@ table tfoot td {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.35rem;
 }
 
@@ -972,29 +975,45 @@ table tfoot td {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   background: rgba(0, 0, 0, 0.06);
-  -webkit-transition: background 0.2s, color 0.2s, -webkit-transform 0.2s;
-  transition: background 0.2s, color 0.2s, -webkit-transform 0.2s;
-  -o-transition: transform 0.2s, background 0.2s, color 0.2s;
-  transition: transform 0.2s, background 0.2s, color 0.2s;
-  transition: transform 0.2s, background 0.2s, color 0.2s, -webkit-transform 0.2s;
+  -webkit-transition:
+    background 0.2s,
+    color 0.2s,
+    -webkit-transform 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    -webkit-transform 0.2s;
+  -o-transition:
+    transform 0.2s,
+    background 0.2s,
+    color 0.2s;
+  transition:
+    transform 0.2s,
+    background 0.2s,
+    color 0.2s;
+  transition:
+    transform 0.2s,
+    background 0.2s,
+    color 0.2s,
+    -webkit-transform 0.2s;
 }
 
 .footer-social a:hover {
   color: #00d4aa;
   background: rgba(0, 0, 0, 0.13);
   -webkit-transform: translateY(-1px);
-      -ms-transform: translateY(-1px);
-          transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .hero-content h1 {
@@ -1010,11 +1029,11 @@ table tfoot td {
   display: grid;
   grid-template-columns: 1fr auto;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-column-gap: 2rem;
-     -moz-column-gap: 2rem;
-          column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .sidebar {
@@ -1045,7 +1064,7 @@ table tfoot td {
   height: 100px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
   overflow: hidden;
   background-color: #0d1117;
 }
@@ -1053,16 +1072,18 @@ table tfoot td {
   width: 100%;
   height: 100%;
   -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   -o-transition: transform 0.35s;
   transition: transform 0.35s;
-  transition: transform 0.35s, -webkit-transform 0.35s;
+  transition:
+    transform 0.35s,
+    -webkit-transform 0.35s;
 }
 .about img:hover {
   -webkit-transform: scale3d(0.9, 0.9, 1);
-          transform: scale3d(0.9, 0.9, 1);
+  transform: scale3d(0.9, 0.9, 1);
 }
 .about .author-name {
   font-family: "PT Serif", serif;
@@ -1079,14 +1100,14 @@ table tfoot td {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: 0;
   display: block;
   width: 7px;
   height: 7px;
   -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
   background-color: #ffffff;
 }
 .about p {
@@ -1102,13 +1123,13 @@ table tfoot td {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .contact .contact-title {
@@ -1126,8 +1147,8 @@ table tfoot td {
   height: 2px;
   width: calc(50% - 48px);
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   top: 50%;
   left: 0;
@@ -1139,8 +1160,8 @@ table tfoot td {
   height: 2px;
   width: calc(50% - 48px);
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   top: 50%;
   right: 0;
@@ -1171,8 +1192,8 @@ table tfoot td {
 .contact ul li a:hover {
   color: #0d1117;
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 footer .copyright {
@@ -1190,14 +1211,14 @@ footer .copyright {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   min-height: 11rem;
   -webkit-border-radius: 10px;
-          border-radius: 10px;
+  border-radius: 10px;
   background-color: #2a2a2a;
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1206,21 +1227,21 @@ footer .copyright {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 .post:hover {
   -webkit-transform: translate(0px, -2px);
-      -ms-transform: translate(0px, -2px);
-          transform: translate(0px, -2px);
+  -ms-transform: translate(0px, -2px);
+  transform: translate(0px, -2px);
   -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 .post .post-thumbnail {
   width: 30%;
   max-width: 100%;
   min-height: 11rem;
   -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 .post .post-content {
@@ -1231,11 +1252,11 @@ footer .copyright {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   gap: 0.8rem;
 }
 .post .post-content .post-date,
@@ -1256,7 +1277,23 @@ footer .copyright {
 }
 .post .post-content p {
   margin-top: 0;
-  color: #333333;
+  color: #eeeeee;
+}
+
+.post .post-content .read-more {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.post .post-content .read-more:hover {
+  background-color: #3367d6;
 }
 
 a.older-posts,
@@ -1268,19 +1305,21 @@ a.newer-posts {
   transition: -webkit-transform 0.2s;
   -o-transition: transform 0.2s;
   transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
+  transition:
+    transform 0.2s,
+    -webkit-transform 0.2s;
 }
 
 a.older-posts:hover {
   -webkit-transform: translateX(5px);
-      -ms-transform: translateX(5px);
-          transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 a.newer-posts:hover {
   -webkit-transform: translateX(-5px);
-      -ms-transform: translateX(-5px);
-          transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  transform: translateX(-5px);
 }
 
 .portfolio-grid {
@@ -1310,20 +1349,22 @@ a.newer-posts:hover {
   background-color: #333333;
   padding: 1.5rem;
   -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
 }
 
 .project-card:hover {
   -webkit-transform: translateY(-5px);
-      -ms-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .project-card h3 {
@@ -1376,9 +1417,9 @@ a.newer-posts:hover {
   background-color: #333333;
   padding: 1.5rem;
   -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .learning-item h3 {
@@ -1412,11 +1453,11 @@ a.newer-posts:hover {
   background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
   padding: 3rem 1rem;
   -webkit-border-radius: 12px;
-          border-radius: 12px;
+  border-radius: 12px;
   max-width: 900px;
   margin: 0 auto 3rem;
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -1447,23 +1488,34 @@ a.newer-posts:hover {
   width: 100%;
   padding: 0.9rem 1rem;
   -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.05);
   color: #ffffff;
   outline: none;
-  -webkit-transition: border-color 0.2s, -webkit-box-shadow 0.2s;
-  transition: border-color 0.2s, -webkit-box-shadow 0.2s;
-  -o-transition: border-color 0.2s, box-shadow 0.2s;
-  transition: border-color 0.2s, box-shadow 0.2s;
-  transition: border-color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  -webkit-transition:
+    border-color 0.2s,
+    -webkit-box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    -webkit-box-shadow 0.2s;
+  -o-transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s,
+    -webkit-box-shadow 0.2s;
 }
 
 .contact-section input:focus,
 .contact-section textarea:focus {
   border-color: #00d4aa;
   -webkit-box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
-          box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
+  box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
 }
 
 .contact-section textarea {
@@ -1480,22 +1532,33 @@ a.newer-posts:hover {
   color: #ffffff;
   border: none;
   -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   padding: 0.85rem 1.5rem;
   font-weight: 700;
   cursor: pointer;
-  -webkit-transition: background-color 0.2s, -webkit-transform 0.2s;
-  transition: background-color 0.2s, -webkit-transform 0.2s;
-  -o-transition: transform 0.2s, background-color 0.2s;
-  transition: transform 0.2s, background-color 0.2s;
-  transition: transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+  -webkit-transition:
+    background-color 0.2s,
+    -webkit-transform 0.2s;
+  transition:
+    background-color 0.2s,
+    -webkit-transform 0.2s;
+  -o-transition:
+    transform 0.2s,
+    background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s,
+    -webkit-transform 0.2s;
 }
 
 .contact-section button:hover {
   background-color: rgb(0, 176.3, 141.3726415094);
   -webkit-transform: translateY(-1px);
-      -ms-transform: translateY(-1px);
-          transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .blog-section {
@@ -1514,24 +1577,41 @@ a.newer-posts:hover {
   background-color: #2a2a2a;
   border: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 12px;
-          border-radius: 12px;
+  border-radius: 12px;
   -webkit-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
-          box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
   padding: 1.4rem 1.2rem;
-  -webkit-transition: border-color 0.25s ease, -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
-  transition: border-color 0.25s ease, -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
-  -o-transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, -webkit-transform 0.25s ease, -webkit-box-shadow 0.25s ease;
+  -webkit-transition:
+    border-color 0.25s ease,
+    -webkit-transform 0.25s ease,
+    -webkit-box-shadow 0.25s ease;
+  transition:
+    border-color 0.25s ease,
+    -webkit-transform 0.25s ease,
+    -webkit-box-shadow 0.25s ease;
+  -o-transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    -webkit-transform 0.25s ease,
+    -webkit-box-shadow 0.25s ease;
 }
 
 .post-item:hover {
   -webkit-transform: translateY(-3px);
-      -ms-transform: translateY(-3px);
-          transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
   border-color: rgba(0, 0, 0, 0.18);
   -webkit-box-shadow: 0 16px 30px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 16px 30px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.16);
 }
 
 .post-item h2 {
@@ -1543,9 +1623,15 @@ a.newer-posts:hover {
   color: #ffffff;
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  -webkit-transition: border-color 0.2s, color 0.2s;
-  -o-transition: border-color 0.2s, color 0.2s;
-  transition: border-color 0.2s, color 0.2s;
+  -webkit-transition:
+    border-color 0.2s,
+    color 0.2s;
+  -o-transition:
+    border-color 0.2s,
+    color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 
 .post-item h2 a:hover {
@@ -1641,10 +1727,10 @@ a.newer-posts:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-bottom: 30px;
   margin: 30px 0;
   border-bottom: 1px solid #cccccc;
@@ -1744,8 +1830,8 @@ a.newer-posts:hover {
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .post .post-thumbnail {
     width: 100%;
@@ -1769,16 +1855,16 @@ a.newer-posts:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 100%;
     padding: 10px;
     background-color: #0d1117;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+    box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
   .sidebar footer {
     margin-bottom: 10px;
@@ -1792,7 +1878,7 @@ a.newer-posts:hover {
     width: 100px;
     height: 100px;
     -webkit-border-radius: 100%;
-            border-radius: 100%;
+    border-radius: 100%;
     margin-bottom: 10px;
   }
   .content-box {
@@ -1802,13 +1888,13 @@ a.newer-posts:hover {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
   .contact-title,
   .copyright {
@@ -1826,8 +1912,8 @@ a.newer-posts:hover {
     margin: 2%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .post .post-thumbnail {
     width: 100%;
