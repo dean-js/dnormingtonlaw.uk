@@ -15,23 +15,27 @@
 .hero-content p {
   font-size: 1.2rem;
   color: $body-color;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.6;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  column-gap: 2rem;
 }
 
 .sidebar {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
+  display: none;
   left: 0;
   bottom: 0;
   width: 240px;
   height: 100%;
   padding: 20px 10px;
   background-color: $dark;
+  .navbar,
+  .nav-menu,
+  .nav-item,
+  .nav-link {
+    color: #111111;
+  }
 }
 .about {
   margin: 0 0 40px;

@@ -622,8 +622,8 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  color: #e0e0e0;
-  background-color: #1a1a1a;
+  color: #111111;
+  background-color: #ffffff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -836,30 +836,33 @@ table tfoot td {
 .hero-content p {
   font-size: 1.2rem;
   color: #e0e0e0;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.6;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
 }
 
 .sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: fixed;
-  top: 0;
+  display: none;
   left: 0;
   bottom: 0;
   width: 240px;
   height: 100%;
   padding: 20px 10px;
   background-color: #1a1a1a;
+}
+.sidebar .navbar,
+.sidebar .nav-menu,
+.sidebar .nav-item,
+.sidebar .nav-link {
+  color: #111111;
 }
 
 .about {
