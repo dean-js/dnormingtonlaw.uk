@@ -1,7 +1,13 @@
 <nav class="navbar">
   <div class="nav-container">
-    <!-- Navigation logo removed: modern minimal design -->
-    <span class="nav-logo" aria-hidden="true"></span>
+    <a href="{{ site.baseurl }}/" class="nav-logo">
+      <img
+        src="{{ site.baseurl }}/assets/img/{{ site.author-img }}"
+        alt="{{ site.author }}"
+        class="nav-logo-avatar"
+      />
+      <span class="nav-logo-text">{{ site.author }}</span>
+    </a>
     <ul class="nav-menu">
       <li class="nav-item">
         <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
