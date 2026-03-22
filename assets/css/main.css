@@ -1215,6 +1215,96 @@ a.newer-posts:hover {
   left: 0;
 }
 
+.contact-section {
+  background: -webkit-linear-gradient(305deg, #1a1a1a 0%, #222222 100%);
+  background: -o-linear-gradient(305deg, #1a1a1a 0%, #222222 100%);
+  background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
+  padding: 3rem 1rem;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  max-width: 750px;
+  margin: 0 auto 3rem;
+  -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-section h1 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section p {
+  color: #e0e0e0;
+  margin-bottom: 1.8rem;
+}
+
+.contact-section form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-section label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  outline: none;
+  -webkit-transition: border-color 0.2s, -webkit-box-shadow 0.2s;
+  transition: border-color 0.2s, -webkit-box-shadow 0.2s;
+  -o-transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #00d4aa;
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
+          box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
+}
+
+.contact-section textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-section button {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #00d4aa;
+  color: #ffffff;
+  border: none;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  padding: 0.85rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s, -webkit-transform 0.2s;
+  transition: background-color 0.2s, -webkit-transform 0.2s;
+  -o-transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+}
+
+.contact-section button:hover {
+  background-color: rgb(0, 176.3, 141.3726415094);
+  -webkit-transform: translateY(-1px);
+      -ms-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
 .pagination .container {
   max-width: 800px;
   margin: 0 auto;

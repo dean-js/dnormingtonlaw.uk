@@ -333,6 +333,81 @@ a.newer-posts:hover {
   left: 0;
 }
 
+.contact-section {
+  background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  max-width: 750px;
+  margin: 0 auto 3rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-section h1 {
+  color: $white;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section p {
+  color: $body-color;
+  margin-bottom: 1.8rem;
+}
+
+.contact-section form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-section label {
+  color: $white;
+  font-weight: 600;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: $white;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: $dark-blue;
+  box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
+}
+
+.contact-section textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-section button {
+  display: inline-block;
+  width: fit-content;
+  background-color: $dark-blue;
+  color: $white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.85rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+
+.contact-section button:hover {
+  background-color: darken($dark-blue, 7%);
+  transform: translateY(-1px);
+}
+
 .pagination {
   .container {
     max-width: 800px;
