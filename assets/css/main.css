@@ -1027,6 +1027,9 @@ footer .copyright {
   min-height: 11rem;
   -webkit-border-radius: 10px;
           border-radius: 10px;
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1052,10 +1055,22 @@ footer .copyright {
 .post .post-content {
   padding: 1rem;
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0.8rem;
 }
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
+  color: #666666;
 }
 .post .post-content .post-title {
   margin: 0 0 10px;
@@ -1065,10 +1080,12 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: "PT Serif", serif;
   text-decoration: none;
-  color: #00d4aa;
+  color: #111111;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 .post .post-content p {
   margin-top: 0;
+  color: #333333;
 }
 
 a.older-posts,
