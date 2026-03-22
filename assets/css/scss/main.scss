@@ -68,6 +68,15 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-all;
+
+    /* global layout for sticky footer and full viewport awareness */
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family:
+        "Inter", "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
   }
 }
 
@@ -181,6 +190,15 @@ table tfoot td {
 .wrapper {
   max-width: 1250px;
   position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .post,
