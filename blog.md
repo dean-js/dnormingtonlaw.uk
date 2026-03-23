@@ -5,7 +5,7 @@ title: Blog
 
 <section class="blog-section">
   <h1>Blog</h1>
-  <p>My thoughts and experiences.</p>
+  <p>My thoughts and experiences on all different topics,Find all my different blog posts here.</p>
   {% if site.posts and site.posts.size > 0 %}
     <div class="posts-list">
       {% for post in site.posts %}
