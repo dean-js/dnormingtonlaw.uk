@@ -1070,9 +1070,7 @@ table tfoot td {
 }
 
 .sidebar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   left: 0;
   bottom: 0;
   width: 240px;
@@ -1152,7 +1150,6 @@ table tfoot td {
 
 .content-box {
   padding: 20px;
-  padding-left: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
