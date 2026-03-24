@@ -38,7 +38,6 @@ The Features I want to improve and Add
 - api intergration allowing users to sign in sync date to google calender or microsoft calender
 - expand on css styling
 - JS script - create script that piles missed tasks that are past due date and not deleted - seperate section (Missed Tasks) this allowing users to either change the due date, delete or even reflect on their own time management
--
 
 ## Conclusion
 
