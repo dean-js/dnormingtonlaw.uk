@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Example Tech Post: Building My First Web App"
+title: "Building FocusTask: Building My First Web App - A Simple but effcient to do list app"
 date: 2026-03-19 10:00:00 +0000
 categories: [projects, web-development]
-tags: [javascript, html, css, beginner]
-excerpt: "A step-by-step guide to my first web app project as a coding beginner."
+tags: [javascript, html, css, beginner, projects]
+excerpt: "A personal nsight into building FocusTask - A to-do List application."
 ---
 
 # Introduction
 
-Welcome to my first example blog post! This is a sample entry to demonstrate how blog posts work on this Jekyll site. As someone transitioning from law to computing, I'm excited to share my coding journey.
+Welcome to my first project blog post
 
 ## What I Built
 
@@ -65,17 +65,18 @@ function saveTasks() {
 
 As a beginner, I struggled with:
 
+-
 - Understanding DOM manipulation
 - Implementing local storage
-- Making the UI responsive
+- Making the UI responsive and visuall correct
 
 ## What I Learned
 
 This project taught me the basics of:
 
-- JavaScript event handling
-- Working with the browser's local storage API
-- CSS for styling interactive elements
+- JavaScript event handling - cta buttons for example this changing the behaviour of the page enabling these trigered through user interaction
+- Working with the browser's local storage API - saving data types
+- CSS for styling interactive elements - padding, buttons, spacing, fonts, colour hex
 
 ## Next Steps
 
@@ -84,7 +85,10 @@ I'm planning to enhance this app with:
 - Drag-and-drop functionality
 - Categories for tasks
 - A more polished UI
-- Less Co-Pilot / AI use
+- Add Personal / Work seperation for tasks to help users organise both aspects of their day
+- Less Co-Pilot / AI use in projects overall - Note to self: increases Laziness and critical thinking.
+- reading, understanding syntax
+- understanding math behind code - grids, spacing this being more understanding od css / scss
 
 Feel free to check out the [live demo](https://example.com/todo-app) or the [source code](https://github.com/dean-js/todo-app) on GitHub.
 
