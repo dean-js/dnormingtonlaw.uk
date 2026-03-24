@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building FocusTask: Building My First Web App - A Simple but effcient to do list app"
-date: 2026-03-19 10:00:00 +0000
+date: 2026-03-24 10:00:00 +0000
 categories: [projects, web-development]
 tags: [javascript, html, css, beginner, projects]
 excerpt: "A personal nsight into building FocusTask - A to-do List application."
