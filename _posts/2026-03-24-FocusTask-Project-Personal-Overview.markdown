@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FocusTask Project - To-Do List
+title: FocusTask Project - Personal Project overview
 date: 2026-03-24 17:05:00 +0000
 description: A personal reflection on Creating FocusTask - A simple but Effcient to-do List application
 img: # Add image post (optional)
