@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Dean Normington # add your name
-author-img: /assets/images/new-profile-picture.jpeg # add your profile image
+author-img: _site/assets/img/new-profile-picture.jpeg # add your profile image
 about-author: Software Developer & Law Student showcasing my journey from law to computing # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
