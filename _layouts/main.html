@@ -7,9 +7,7 @@ layout: default
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"
-          ><img
-            src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}"
-            alt="{{site.author}}"
+          <img src="{{ site.author-img | relative_url }}" alt="{{ site.author }}" class="nav-logo-avatar">
         /></a>
       </div>
       <div class="author-name">{{site.author}}</div>
