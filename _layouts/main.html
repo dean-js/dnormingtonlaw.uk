@@ -6,9 +6,13 @@ layout: default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"
-          <img src="{{ site.author-img | relative_url }}" alt="{{ site.author }}" class="nav-logo-avatar">
-        /></a>
+        <a href="{{ '/' | relative_url }}">
+          <img
+            src="{{ site.author-img | relative_url }}"
+            alt="{{ site.author }}"
+            class="nav-logo-avatar"
+          />
+        </a>
       </div>
       <div class="author-name">{{site.author}}</div>
       <p class="author-about">{{site.about-author}}</p>

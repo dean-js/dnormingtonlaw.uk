@@ -1,30 +1,22 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# D Normington Law Portfolio Site
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+This repository contains a custom Jekyll portfolio website with a dark cyber-inspired theme, responsive navigation, and a clean contact section.
 
-## Demo
+## Local development
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+1. Install dependencies:
+   `npm install`
+2. Build the stylesheet with Gulp:
+   `npx gulp`
+3. Serve with Jekyll locally:
+   `bundle exec jekyll serve`
 
-The main page would look like this:
+## Cleanups applied
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
-
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
-
-## Installation:
-
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+- Fixed navigation link routing using `relative_url`
+- Corrected sidebar profile image styles so the image renders properly on mobile and desktop
+- Updated `README.md` with site-specific documentation
+- Removed stale JavaScript include file from `_includes/javascripts.html`
 
 ## License
 
