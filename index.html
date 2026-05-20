@@ -1,5 +1,6 @@
 ---
 layout: main
+title: Home
 ---
 
 <section class="hero page-section">
@@ -13,37 +14,63 @@ layout: main
     </p>
   </div>
 </section>
-<section class="blog-section">
-  <div class="posts-list">
-    {% for post in paginator.posts %}
-    <article class="post">
-      {% if post.img %} {% assign image_url = "/assets/img/" | prepend:
-      site.baseurl | append: post.img %}
-      <a
-        class="post-thumbnail"
-        style="background-image: url('{{ image_url }}');"
-        href="{{post.url | prepend: site.baseurl}}"
-      ></a>
-      {% endif %}
-      <div class="post-content">
-        <h2 class="post-title">
-          <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-        </h2>
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"
-          >Read more</a
-        >
-        <span class="post-date"
-          >{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span
-        >
-        <span class="post-words"
-          >{% capture words %}{{ post.content | number_of_words }}{% endcapture
-          %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by:
-          250 | append: " minute read" }}{% endunless %}</span
-        >
+
+<section class="home-panels page-section">
+  <div class="panel-grid">
+    <article class="panel highlight-card">
+      <div class="panel-heading">
+        <span>Latest Post</span>
+        <h2>Featured reading</h2>
       </div>
+      {% assign latest_post = site.posts.first %}
+      {% if latest_post %}
+        <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
+        <p>{{ latest_post.excerpt | strip_html | truncatewords: 28 }}</p>
+        <a class="button button-primary" href="{{ latest_post.url | relative_url }}">Read the latest post</a>
+      {% else %}
+        <p>No posts are live yet — the latest article will appear here as soon as it is published.</p>
+      {% endif %}
     </article>
-    {% endfor %}
+    <article class="panel highlight-card">
+      <div class="panel-heading">
+        <span>Latest Project</span>
+        <h2>Portfolio preview</h2>
+      </div>
+      <p>Use this card as a placeholder for your newest Legal Tech, Software Development, or Cybersecurity work.</p>
+      <p class="panel-note">Project cards can be updated later using a Jekyll collection or data file.</p>
+      <a class="button button-primary" href="{{ "/portfolio/" | relative_url }}">View portfolio</a>
+    </article>
   </div>
-  {% include pagination.html %}
+</section>
+
+<section class="page-section tracker-section">
+  <div class="section-head">
+    <span class="section-label">100 Days of Code</span>
+    <h2>Challenge tracker</h2>
+  </div>
+  <div class="tracker-card">
+    <p class="tracker-copy">Track progress on daily coding practice, exams, security labs, and learning milestones.</p>
+    <div class="tracker-bar">
+      <div class="tracker-fill" style="width: 28%;"></div>
+    </div>
+    <p class="tracker-caption"><strong>Day 28 of 100</strong> — update this section as your streak grows.</p>
+  </div>
+</section>
+
+<section class="page-section security-section">
+  <div class="section-head">
+    <span class="section-label">Cybersecurity</span>
+    <h2>Cisco Academy &amp; More</h2>
+  </div>
+  <p class="section-copy">This section is designed to anchor your cybersecurity narrative. Capture current training, Cisco Academy progress, research notes, and security-focused projects.</p>
+  <div class="security-grid">
+    <article class="security-card">
+      <h3>Cisco Academy</h3>
+      <p>Document your learning milestones and certifications from the Cisco Academy curriculum.</p>
+    </article>
+    <article class="security-card">
+      <h3>Security Labs</h3>
+      <p>Use this space to highlight hands-on experiments, network hardening, and defensive tooling.</p>
+    </article>
+  </div>
 </section>

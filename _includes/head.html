@@ -1,8 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{%
-    endif %}
+    {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}
   </title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
@@ -76,15 +75,10 @@
     name="viewport"
     content="width=device-width, initial-scale=1, maximum-scale=1"
   />
-  <meta property="og:image" content="" />
-  <link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" |
-  prepend: site.baseurl }}" type="image/x-icon"> <link rel="apple-touch-icon"
-  href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl
-  }}"> <link rel="apple-touch-icon" sizes="72x72" href="{{
-  "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
-  <link rel="apple-touch-icon" sizes="144x144" href="{{
-  "/assets/img/favicon/apple-touch-icon-144x144.png" | prepend: site.baseurl
-  }}">
+  <link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | relative_url }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/img/favicon/apple-touch-icon-144x144.png" | relative_url }}" />
   <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#0d1117" />
   <!-- Windows Phone -->
@@ -99,8 +93,8 @@
   <!-- Font Awesome -->
   <link
     rel="stylesheet"
-    href="/assets/fonts/font-awesome/css/font-awesome.min.css"
+    href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | relative_url }}"
   />
   <!-- Styles -->
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
 </head>

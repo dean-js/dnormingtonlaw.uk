@@ -135,12 +135,171 @@
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: $body-color;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.9;
+}
+
+.panel-note {
+  color: $dark-gray;
+  margin-bottom: 1.25rem;
+}
+
+.blog-filter p {
+  color: $body-color;
+  font-weight: 600;
+}
+
+.home-panels {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.panel-grid {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.highlight-card {
+  background: rgba(13, 17, 23, 0.95);
+  border: 1px solid rgba(77, 214, 255, 0.18);
+  padding: 1.75rem;
+  border-radius: 18px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.42);
+}
+
+.panel-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-head {
+  display: grid;
+  gap: 0.5rem;
+  justify-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.panel-heading span,
+.section-label {
+  display: inline-flex;
+  color: $accent;
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.highlight-card h2,
+.highlight-card h3,
+.section-head h2,
+.security-card h3 {
+  color: $white;
+  margin: 0;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+
+.highlight-card p,
+.section-copy,
+.tracker-copy,
+.security-card p {
+  color: $body-color;
+  line-height: 1.75;
+}
+
+.button-primary {
+  display: inline-flex;
   align-items: center;
-  column-gap: 2rem;
+  justify-content: center;
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  background: $dark-blue;
+  color: $white;
+  text-decoration: none;
+  font-weight: 700;
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+
+.button-primary:hover {
+  background: $accent;
+  transform: translateY(-1px);
+}
+
+.tracker-card,
+.security-card {
+  background: rgba(13, 17, 23, 0.95);
+  border: 1px solid rgba(77, 214, 255, 0.14);
+  padding: 1.75rem;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.tracker-bar {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  overflow: hidden;
+  height: 16px;
+  margin: 1rem 0 0.75rem;
+}
+
+.tracker-fill {
+  background: linear-gradient(90deg, $dark-blue 0%, $accent 100%);
+  height: 100%;
+}
+
+.tracker-caption {
+  color: $dark-gray;
+}
+
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.blog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1rem 0 2rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.filter-pill {
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: $white;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-pill:hover {
+  background: rgba(77, 214, 255, 0.14);
+  border-color: $dark-blue;
+  color: $accent;
+}
+
+.category-section {
+  margin-top: 2rem;
+}
+
+.empty-category {
+  color: $dark-gray;
+  padding: 1rem 0;
 }
 
 .sidebar {
@@ -416,7 +575,7 @@ a.newer-posts:hover {
   margin: 0 auto 2rem;
   padding: 2rem;
   border-radius: 12px;
-  background: #0d1527;
+  background: rgba(6, 8, 14, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -491,7 +650,7 @@ a.newer-posts:hover {
   background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
   padding: 3rem 1rem;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto 3rem;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -510,8 +669,9 @@ a.newer-posts:hover {
 .contact-section form {
   display: grid;
   gap: 1rem;
-  max-width: 850px;
+  max-width: 950px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .contact-section label {
@@ -560,7 +720,7 @@ a.newer-posts:hover {
 }
 
 .contact-section button:hover {
-  background-color: darken($dark-blue, 7%);
+  background-color: scale-color($dark-blue, $lightness: -7%);
   transform: translateY(-1px);
 }
 
