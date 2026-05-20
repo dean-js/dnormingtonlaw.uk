@@ -1,6 +1,6 @@
 ---
 layout: main
-title: About Me
+title: About
 ---
 
 <section class="about-section">

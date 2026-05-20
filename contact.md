@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Contact Me
+title: Contact
 ---
 
 <section class="contact-section">

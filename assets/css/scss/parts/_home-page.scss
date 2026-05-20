@@ -224,10 +224,14 @@
   transition:
     transform 0.2s,
     background 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .button-primary:hover {
-  background: $accent;
+  background: $dark-blue-hover;
   transform: translateY(-1px);
 }
 
@@ -567,7 +571,8 @@ a.newer-posts:hover {
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  color: $dark-blue-hover;
+  text-decoration: none;
 }
 
 .page-section {
@@ -647,8 +652,8 @@ a.newer-posts:hover {
 }
 
 .contact-section {
-  background: linear-gradient(145deg, #1a1a1a 0%, #222222 100%);
-  padding: 3rem 1rem;
+  background: rgba(8, 11, 18, 0.98);
+  padding: 3rem 1.25rem;
   border-radius: 12px;
   max-width: 960px;
   margin: 0 auto 3rem;
@@ -687,10 +692,20 @@ a.newer-posts:hover {
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.05);
   color: $white;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-appearance: none;
+  appearance: none;
   outline: none;
   transition:
     border-color 0.2s,
     box-shadow 0.2s;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+  color: rgba($white, 0.65);
 }
 
 .contact-section input:focus,
@@ -714,13 +729,17 @@ a.newer-posts:hover {
   padding: 0.85rem 1.5rem;
   font-weight: 700;
   cursor: pointer;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-appearance: none;
+  appearance: none;
   transition:
     transform 0.2s,
     background-color 0.2s;
 }
 
 .contact-section button:hover {
-  background-color: scale-color($dark-blue, $lightness: -7%);
+  background-color: $dark-blue-hover;
   transform: translateY(-1px);
 }
 
