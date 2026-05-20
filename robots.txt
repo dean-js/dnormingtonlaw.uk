@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dnormingtonlaw.uk/sitemap.xml
+Host: https://dnormingtonlaw.uk

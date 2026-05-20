@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Portfolio
+description: "Explore Dean Normington's software development and legal technology portfolio featuring real-world project work and learning outcomes."
 ---
 
 <section class="portfolio-grid">

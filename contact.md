@@ -1,12 +1,13 @@
 ---
 layout: main
 title: Contact
+description: "Contact Dean Normington for legal tech work, software development collaboration, or cybersecurity learning opportunities."
 ---
 
 <section class="contact-section">
   <h1>Contact Me</h1>
   <p>Get in touch!</p>
-  <form action="#" method="post">
+  <form action="#" method="post" aria-label="Contact form">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
     

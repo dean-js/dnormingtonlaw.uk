@@ -1,6 +1,7 @@
 ---
 layout: main
 title: About
+description: "About Dean Normington, a law graduate building software, cybersecurity skills, and legal technology projects."
 ---
 
 <section class="about-section">

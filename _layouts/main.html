@@ -25,6 +25,8 @@ layout: default
           <a
             href="https://twitter.com/{{ site.social-twitter }}"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow on Twitter"
             ><i class="fa fa-twitter" aria-hidden="true"></i
           ></a>
         </li>
@@ -33,12 +35,18 @@ layout: default
           <a
             href="https://facebook.com/{{ site.social-facebook }}"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow on Facebook"
             ><i class="fa fa-facebook" aria-hidden="true"></i
           ></a>
         </li>
         {% endif %} {% if site.social-github %}
         <li>
-          <a href="https://github.com/{{ site.social-github }}" target="_blank"
+          <a
+            href="https://github.com/{{ site.social-github }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow on GitHub"
             ><i class="fa fa-github" aria-hidden="true"></i
           ></a>
         </li>
@@ -47,12 +55,14 @@ layout: default
           <a
             href="https://www.linkedin.com/in/{{ site.social-linkedin }}"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow on LinkedIn"
             ><i class="fa fa-linkedin" aria-hidden="true"></i
           ></a>
         </li>
         {% endif %} {% if site.social-email %}
         <li>
-          <a href="mailto:{{ site.social-email }}"
+          <a href="mailto:{{ site.social-email }}" aria-label="Send an email"
             ><i class="fa fa-envelope-o" aria-hidden="true"></i
           ></a>
         </li>
@@ -120,7 +130,11 @@ layout: default
     <ul>
       {% if site.social-twitter %}
       <li>
-        <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"
+        <a
+          href="https://twitter.com/{{ site.social-twitter }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow on Twitter"
           ><i class="fa fa-twitter"></i
         ></a>
       </li>
@@ -129,12 +143,18 @@ layout: default
         <a
           href="https://facebook.com/{{ site.social-facebook }}"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow on Facebook"
           ><i class="fa fa-facebook"></i
         ></a>
       </li>
       {% endif %} {% if site.social-github %}
       <li>
-        <a href="https://github.com/{{ site.social-github }}" target="_blank"
+        <a
+          href="https://github.com/{{ site.social-github }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow on GitHub"
           ><i class="fa fa-github"></i
         ></a>
       </li>
@@ -143,12 +163,14 @@ layout: default
         <a
           href="https://www.linkedin.com/in/{{ site.social-linkedin }}"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow on LinkedIn"
           ><i class="fa fa-linkedin"></i
         ></a>
       </li>
       {% endif %} {% if site.social-email %}
       <li>
-        <a href="mailto:{{ site.social-email }}"
+        <a href="mailto:{{ site.social-email }}" aria-label="Send an email"
           ><i class="fa fa-envelope-o"></i
         ></a>
       </li>
