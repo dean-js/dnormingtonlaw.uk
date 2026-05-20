@@ -655,7 +655,8 @@ a.newer-posts:hover {
   background: rgba(8, 11, 18, 0.98);
   padding: 3rem 1.25rem;
   border-radius: 12px;
-  max-width: 960px;
+  width: 100%;
+  max-width: 650px;
   margin: 0 auto 3rem;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -674,9 +675,9 @@ a.newer-posts:hover {
 .contact-section form {
   display: grid;
   gap: 1rem;
-  max-width: 950px;
-  margin: 0 auto;
   width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .contact-section label {
@@ -695,6 +696,7 @@ a.newer-posts:hover {
   font-family: inherit;
   font-size: 1rem;
   line-height: 1.6;
+  box-sizing: border-box;
   -webkit-appearance: none;
   appearance: none;
   outline: none;
