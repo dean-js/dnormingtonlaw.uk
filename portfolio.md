@@ -20,6 +20,11 @@ description: "Explore Dean Normington's software development and legal technolog
       <p>Description of Legal Fee Calculator.</p>
       <a href="#" class="project-link">View Project</a>
     </div>
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>A polished portfolio website showcasing my learning journey, software projects, cybersecurity interests, and legal tech experience.</p>
+      <a href="{{ '/' | relative_url }}" class="project-link">Visit Portfolio</a>
+    </div>
     <!-- Add more projects as needed -->
   </div>
 </section>
