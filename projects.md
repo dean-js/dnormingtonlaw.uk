@@ -16,9 +16,9 @@ description: "Discover the projects that support Dean's transition from law to t
     <p> Online short course in cybersecurity through ThinkEmployment, Providing fundemental skils and profssional skills help overall devlopment.</p>
   </div>
   <!-- Add project details here -->
-</section>
 <div class="project-card">
     <h3>Cisco Cybersecurity Learning</h3>
     <p>A free Online cybersecurity through Cisco Academy labs, network security exercises, and practical defensive techniques.</p>
   </div>
   <!-- Add project details here -->
+</section>
