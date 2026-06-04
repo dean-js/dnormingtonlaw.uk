@@ -37,6 +37,13 @@ description: "About Dean Normington, a law graduate building software, cybersecu
         <li>Personal Projects</li>
         <li>Other work experience</li>
       </ul>
-    </div>
+      <div class="learning-item">
+            <h3>Non-Related Skills</h3>
+            <ul>
+                <li>Customer Service</li>
+                <li>Technical Writing</li>
+                <li>Effective Communication</li>
+            </ul>
+        </div>
   </div>
 </section>
