@@ -6,7 +6,7 @@ description: "About Dean Normington, a law graduate building software, cybersecu
 
 <section class="page-section about-section">
   <h1>About Me</h1>
-  <p class="about-hero-tagline"><strong>My Story</strong></p>
+  <p class="about-story-header"><strong>My Story</strong></p>
 
 <p class="about-bio">True passion always finds a way back. After regretting walking away from software development as a teenager, and later realizing law wasn't for me, I pivoted back to IT with a completely renewed focus.</p>
 

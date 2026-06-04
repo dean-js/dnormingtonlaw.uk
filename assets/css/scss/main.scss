@@ -301,3 +301,28 @@ textarea:focus-visible {
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import "media";
+/* --- Hero & Bio Layout Tweaks --- */
+
+// 1. Separate the tagline from the paragraph cleanly
+.hero-tagline,
+.about-hero-tagline {
+  margin-bottom: 2rem !important;
+  font-size: 1.1rem;
+  color: #a0aec0; // Gives it a nice, clean silver tone
+}
+
+// 2. Add breathing room between your bio paragraphs
+.hero-bio,
+.about-bio {
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+  font-size: 1.05rem;
+  color: #e2e8f0; // Off-white for premium readability
+}
+
+// 3. Keep long paragraphs from stretching too wide across the screen
+.hero-content,
+.about-section {
+  max-width: 760px;
+  margin: 0 auto;
+}
