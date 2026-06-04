@@ -43,7 +43,15 @@ description: "About Dean Normington, a law graduate building software, cybersecu
                 <li>Home Lab Setup</li>
             </ul>
         </div>
-
+<div class="learning-item">
+            <h3>Technical Skills</h3>
+            <p>Showcasing independent coding practice and foundational programming milestones.</p>
+            <ul>
+                <li>Northcoders Entry Prep</li>
+                <li>JavaScript Fundamentals</li>
+                <li>Coding Challenge Problems</li>
+            </ul>
+        </div>
         <div class="learning-item">
             <h3>Non-Related Skills</h3>
             <ul>
