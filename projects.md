@@ -7,6 +7,7 @@ description: "Discover the projects that support Dean's transition from law to t
 <section class="projects-section">
   <h1>My Projects</h1>
   <p>Explore the projects I've developed.</p>
+  <div class="projects-grid">
   <a class="project-card" href="{{ '/projects/100-days-of-code/' | relative_url }}">
     <h3>100 Days of Code Challenge</h3>
     <p>Starting the 100dayofcode of challenge to enhance fundemental coding skills and build daily coding practice and creating projects, documenting milestones, challenges faced, and learning outcomes.</p>
@@ -20,5 +21,6 @@ description: "Discover the projects that support Dean's transition from law to t
     <h3>Cisco Cybersecurity Learning</h3>
     <p>A free Online cybersecurity through Cisco Academy labs, network security exercises, and practical defensive techniques.</p>
   </a>
+  </div>
   <!-- Add project details here -->
 </section>
