@@ -1,19 +1,19 @@
 .hero {
   background-color: transparent;
   padding: 2rem 1.5rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .hero-content,
 .hero-content h1,
 .hero-content p,
 .hero-content .hero-tagline {
-  text-align: center;
+  text-align: left;
 }
 
 .hero-content,
@@ -34,6 +34,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: left;
 }
 
 .hero-avatar {
@@ -129,7 +130,7 @@
 
 .hero-content h1 {
   font-size: clamp(2.6rem, 5vw, 3.2rem);
-  color: $white;
+  color: $accent;
   margin-bottom: 1rem;
   font-weight: inherit;
   line-height: 1.05;
@@ -137,15 +138,20 @@
 
 .hero-content p {
   font-size: 1rem;
-  color: $body-color;
+  color: $white;
   max-width: 760px;
-  margin: 0 auto 1.5rem;
+  margin: 0 0 1.5rem;
   line-height: 1.8;
 }
 
 .hero-content .hero-tagline {
   font-size: 1.05rem;
   letter-spacing: 0.02em;
+}
+
+.hero-bio,
+.about-bio {
+  color: $white;
 }
 
 .panel-note {
@@ -169,7 +175,6 @@
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
-/* ===== Career Roadmap Pillars ===== */
 
 .pillars {
   max-width: 1200px;
@@ -635,7 +640,7 @@ a.newer-posts:hover {
   background: rgba(6, 8, 14, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  text-align: center;
+  text-align: left;
 }
 
 .page-section h1,
@@ -647,7 +652,7 @@ a.newer-posts:hover {
 
 .about-section {
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .about-section h1 {
@@ -659,16 +664,17 @@ a.newer-posts:hover {
   color: $body-color;
   margin-bottom: 2rem;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .learning-path {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: 1fr;
-  gap: 2rem;
-  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: start;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -680,8 +686,9 @@ a.newer-posts:hover {
   box-shadow: 0 14px 35px rgba(0, 0, 0, 0.42);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: flex-start;
+  align-items: stretch;
+  text-align: left;
   height: 100%;
   transition: all 0.25s ease;
 }
@@ -692,29 +699,19 @@ a.newer-posts:hover {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
 }
 
-.learning-item {
-  border-left: 5px solid $dark-blue;
-  padding: 1.5rem 1.5rem 1.5rem 1.35rem;
-  transition: transform 0.3s;
-}
-
-.learning-item:hover {
-  transform: translateY(-5px);
-}
-
 .learning-item h3 {
   color: $white;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   font-size: 1.25rem;
 }
 
 .learning-item ul {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   width: 100%;
   max-width: 90%;
-  text-align: center;
+  text-align: left;
 }
 
 .learning-item li {
