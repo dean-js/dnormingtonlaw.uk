@@ -13,7 +13,16 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family:
+    "Inter",
+    "JetBrains Mono",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
   color: $text;
   background-color: $background;
   margin: 0;
@@ -51,12 +60,15 @@ pre {
 }
 
 h1,
-h2,
+h2 {
+  color: $accent;
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: "JetBrains Mono", "SF Mono", "Menlo", monospace;
   color: $text;
   font-weight: 400;
 }
@@ -167,7 +179,7 @@ table tfoot td {
     word-wrap: break-word;
   }
   gap: 0.5rem;
-  color: $dark-blue;
+  color: $white;
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
@@ -206,7 +218,7 @@ table tfoot td {
 }
 
 .nav-link:hover {
-  color: $dark-blue;
+  color: $accent;
 }
 
 .wrapper {
@@ -230,12 +242,14 @@ table tfoot td {
 
 a,
 a:visited {
-  color: $dark-blue;
+  color: inherit;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   color: $accent;
+  opacity: 0.95;
 }
 
 a:focus-visible,

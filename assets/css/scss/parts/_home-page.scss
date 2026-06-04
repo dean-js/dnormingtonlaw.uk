@@ -70,7 +70,7 @@
 }
 
 .footer-meta a:hover {
-  color: $dark-blue;
+  color: $accent;
 }
 
 .footer-copyright {
@@ -95,7 +95,7 @@
 }
 
 .footer-social a:hover {
-  color: $dark-blue;
+  color: $accent;
   background: rgba(0, 0, 0, 0.13);
   transform: translateY(-1px);
 }
@@ -168,7 +168,7 @@
 
 .pillar-card p {
   margin-bottom: 0;
-  color: #e8f6ff;
+  color: $body-color;
   line-height: 1.75;
 }
 
@@ -315,8 +315,8 @@
 }
 
 .filter-pill:hover {
-  background: rgba(77, 214, 255, 0.14);
-  border-color: $dark-blue;
+  background: rgba(43, 197, 160, 0.12);
+  border-color: $accent;
   color: $accent;
 }
 
@@ -584,13 +584,13 @@ a.newer-posts:hover {
 }
 
 .project-link {
-  color: $dark-blue;
+  color: $accent;
   text-decoration: none;
   font-weight: bold;
 }
 
 .project-link:hover {
-  color: $dark-blue-hover;
+  color: $accent;
   text-decoration: none;
 }
 
@@ -651,7 +651,7 @@ a.newer-posts:hover {
 }
 
 .learning-item h3 {
-  color: $dark-blue;
+  color: $accent;
   margin-bottom: 1rem;
 }
 
@@ -672,7 +672,7 @@ a.newer-posts:hover {
 
 .learning-item li::before {
   content: "•";
-  color: $dark-blue;
+  color: $accent;
   position: absolute;
   left: 0;
 }
@@ -815,8 +815,8 @@ a.newer-posts:hover {
 }
 
 .post-item h2 a:hover {
-  color: $dark-blue;
-  border-color: $dark-blue;
+  color: $accent;
+  border-color: $accent;
 }
 
 .post-item .post-meta {
@@ -832,7 +832,6 @@ a.newer-posts:hover {
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
 }
 .post-item .read-more {
-  color: $dark-blue;
   background: #0f172a;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #f8fafc;
