@@ -132,7 +132,8 @@
 
 .panel-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* allow cards to scale down so 3 columns can appear on narrower viewports */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
 /* ===== Career Roadmap Pillars ===== */
@@ -184,6 +185,12 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1.25rem;
+}
+
+/* remove underline for featured reading title links on the homepage */
+.home-panels .panel-grid h3 a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .section-head {
@@ -271,9 +278,17 @@
 
 .security-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  /* make security cards slightly smaller so three can sit side-by-side on desktop/tablet */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.25rem;
   margin-top: 1.5rem;
+}
+
+/* ensure linked cards preserve visual styling and no underline */
+.security-grid a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .blog-filter {

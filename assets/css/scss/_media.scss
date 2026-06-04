@@ -28,7 +28,8 @@
   }
   .panel-grid,
   .security-grid {
-    grid-template-columns: 1fr;
+    /* show two columns on medium screens instead of forcing single-column */
+    grid-template-columns: repeat(2, 1fr);
   }
   .blog-filter {
     flex-direction: column;
