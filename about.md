@@ -6,11 +6,13 @@ description: "About Dean Normington, a law graduate building software, cybersecu
 
 <section class="page-section about-section">
   <h1>About Me</h1>
-  <p>My Story
+  <p class="about-hero-tagline"><strong>My Story</strong></p>
 
-True passion always finds a way back. After regretting walking away from software development as a teenager, and later realizing law wasn't for me, I pivoted back to IT with a completely renewed focus.
+<p class="about-bio">True passion always finds a way back. After regretting walking away from software development as a teenager, and later realizing law wasn't for me, I pivoted back to IT with a completely renewed focus.</p>
 
-As an adult, I’ve tackled my goals head-on. I have been channelizing my analytical background into NCFE Level 3 Cyber Security studies, mastering software development fundamentals, and building practical, hands-on projects. Today, I’m a resilient, adaptable tech enthusiast ready to launch my career. I am actively seeking entry-level roles in Cyber Security, software development, or IT support to get my foot in the door, with the ultimate goal of growing into a specialist who can eventually serve my own clients..</p>
+<p class="about-bio">As an adult, I’ve tackled my goals head-on. I have been channelizing my analytical background into NCFE Level 3 Cyber Security studies, mastering software development fundamentals, and building practical, hands-on projects. Today, I’m a resilient, adaptable tech enthusiast ready to launch my career.</p>
+
+<p class="about-bio">I am actively seeking entry-level roles in Cyber Security, software development, or IT support to get my foot in the door, with the ultimate goal of growing into a specialist who can eventually serve my own clients.</p>
   
   <h2>My Learning Path</h2>
   <div class="learning-path">
