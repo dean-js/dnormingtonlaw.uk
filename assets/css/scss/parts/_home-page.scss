@@ -9,6 +9,19 @@
   align-items: center;
 }
 
+.hero-content,
+.hero-content h1,
+.hero-content p,
+.hero-content .hero-tagline {
+  text-align: center;
+}
+
+.hero-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .hero-avatar {
   margin: 0 auto 1.5rem;
   width: 100px;
@@ -662,6 +675,18 @@ a.newer-posts:hover {
   display: inline-block;
   text-align: left;
   max-width: 90%;
+}
+
+.learning-item ul,
+.learning-item li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.learning-item li {
+  padding-left: 0;
 }
 
 .learning-item li {
