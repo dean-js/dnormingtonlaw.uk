@@ -20,22 +20,27 @@ description: "About Dean Normington, a law graduate building software, cybersecu
       <h3>Certifications</h3>
       <ul>
         <li>FreeCodeCamp</li>
-        <li>Other course Provider</li>
+        <li>TryHackMe</li>
+        <li>W3Schools</li>
+        <li>Cisco Online Academy</li>
       </ul>
     </div>
     <div class="learning-item">
       <h3>Courses & Studies</h3>
       <ul>
-        <li>NCFE Level 3 In cybersecurity systems</li>
-        <li>Computing (HNC)</li>
-        <li>ICT (GCSE)</li>
+        <li>Computing (HNC) (awaiting start date: Sept 2026)</li>
+        <li>NCFE Level 3 In cybersecurity systems(2026)</li>
+        <li>Law (LLB) wiht foundation year - (made the change Back to Tech)</li>
+        <li>ICT Level 3 (BTEC) (2018)</li>
+        <li>ICT (GCSE)(2017)</li>
       </ul>
     </div>
     <div class="learning-item">
             <h3>Extracurricular Activities</h3>
             <ul>
                 <li>Personal Projects</li>
-                <li>Other work experience</li>
+                <li>TryHackMe Rooms</li>
+                <li>Home Lab Setup</li>
             </ul>
         </div>
 
@@ -49,4 +54,5 @@ description: "About Dean Normington, a law graduate building software, cybersecu
         </div>
 
     </div>
+
 </section>
