@@ -25,7 +25,7 @@ This page is the Home Lab Project placeholder where experiments, network diagram
 
 ## GitHub Link
 
-Project repository: 
+Project repository:
 
 ## Screenshots
 
