@@ -4,7 +4,7 @@ title: About
 description: "About Dean Normington, a law graduate building software, cybersecurity skills, and legal technology projects."
 ---
 
-<section class="about-section">
+<section class="page-section about-section">
   <h1>About Me</h1>
   <p>I'm Dean Normington, a passionate software developer transitioning from a law background. As a mature student, I've embraced the world of coding and technology.</p>
   
