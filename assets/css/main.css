@@ -1774,12 +1774,13 @@ a.newer-posts:hover {
 }
 
 .learning-item {
-  background-color: #141c2d;
-  padding: 1.5rem;
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
-  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: rgba(13, 17, 23, 0.95);
+  border: 1px solid rgba(43, 197, 160, 0.18);
+  padding: 1.75rem;
+  -webkit-border-radius: 18px;
+          border-radius: 18px;
+  -webkit-box-shadow: 0 14px 35px rgba(0, 0, 0, 0.42);
+          box-shadow: 0 14px 35px rgba(0, 0, 0, 0.42);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1791,11 +1792,41 @@ a.newer-posts:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
+  height: 100%;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.learning-item:hover {
+  -webkit-transform: translateY(-4px);
+      -ms-transform: translateY(-4px);
+          transform: translateY(-4px);
+  border-color: rgba(43, 197, 160, 0.35);
+  -webkit-box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+}
+
+.learning-item {
+  border-left: 5px solid rgb(35.69, 163.51, 132.8);
+  padding: 1.5rem 1.5rem 1.5rem 1.35rem;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.learning-item:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .learning-item h3 {
   color: #f8fafc;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
 }
 
 .learning-item ul {
@@ -1805,6 +1836,11 @@ a.newer-posts:hover {
   width: 100%;
   max-width: 90%;
   text-align: center;
+}
+
+.learning-item li {
+  display: inline-block;
+  width: 100%;
 }
 
 .learning-item li {
