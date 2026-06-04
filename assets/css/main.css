@@ -1144,7 +1144,7 @@ textarea:focus-visible {
   -webkit-transform: translateY(-4px);
       -ms-transform: translateY(-4px);
           transform: translateY(-4px);
-  border-color: rgba(77, 214, 255, 0.35);
+  border-color: rgba(43, 197, 160, 0.35);
   -webkit-box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
           box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
 }
@@ -1163,7 +1163,7 @@ textarea:focus-visible {
 
 .highlight-card {
   background: rgba(13, 17, 23, 0.95);
-  border: 1px solid rgba(77, 214, 255, 0.18);
+  border: 1px solid rgba(43, 197, 160, 0.18);
   padding: 1.75rem;
   -webkit-border-radius: 18px;
           border-radius: 18px;
@@ -1237,7 +1237,7 @@ textarea:focus-visible {
   padding: 0.85rem 1.4rem;
   -webkit-border-radius: 999px;
           border-radius: 999px;
-  background: #3c8bbf;
+  background: rgb(35.69, 163.51, 132.8);
   color: #f8fafc;
   text-decoration: none;
   font-weight: 700;
@@ -1255,7 +1255,7 @@ textarea:focus-visible {
 }
 
 .button-primary:hover {
-  background: #30749a;
+  background: rgb(30.2075, 138.3925, 112.4);
   -webkit-transform: translateY(-1px);
       -ms-transform: translateY(-1px);
           transform: translateY(-1px);
@@ -1264,7 +1264,7 @@ textarea:focus-visible {
 .tracker-card,
 .security-card {
   background: rgba(13, 17, 23, 0.95);
-  border: 1px solid rgba(77, 214, 255, 0.14);
+  border: 1px solid rgba(43, 197, 160, 0.14);
   padding: 1.75rem;
   -webkit-border-radius: 18px;
           border-radius: 18px;
@@ -1282,10 +1282,10 @@ textarea:focus-visible {
 }
 
 .tracker-fill {
-  background: -webkit-gradient(linear, left top, right top, from(#3c8bbf), to(#2bc5a0));
-  background: -webkit-linear-gradient(left, #3c8bbf 0%, #2bc5a0 100%);
-  background: -o-linear-gradient(left, #3c8bbf 0%, #2bc5a0 100%);
-  background: linear-gradient(90deg, #3c8bbf 0%, #2bc5a0 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(35.69, 163.51, 132.8)), to(#2bc5a0));
+  background: -webkit-linear-gradient(left, rgb(35.69, 163.51, 132.8) 0%, #2bc5a0 100%);
+  background: -o-linear-gradient(left, rgb(35.69, 163.51, 132.8) 0%, #2bc5a0 100%);
+  background: linear-gradient(90deg, rgb(35.69, 163.51, 132.8) 0%, #2bc5a0 100%);
   height: 100%;
 }
 
@@ -1626,7 +1626,7 @@ a.newer-posts:hover {
   width: 100%;
   text-decoration: none;
   color: inherit;
-  border-left: 5px solid #3c8bbf;
+  border-left: 5px solid rgb(35.69, 163.51, 132.8);
   padding: 1.5rem 1.5rem 1.5rem 1.35rem;
   text-align: center;
   background-color: #141c2d;
@@ -1855,7 +1855,7 @@ a.newer-posts:hover {
 
 .contact-section input:focus,
 .contact-section textarea:focus {
-  border-color: #3c8bbf;
+  border-color: rgb(35.69, 163.51, 132.8);
   -webkit-box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
           box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.2);
 }
@@ -1870,7 +1870,7 @@ a.newer-posts:hover {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #3c8bbf;
+  background-color: rgb(35.69, 163.51, 132.8);
   color: #f8fafc;
   border: none;
   -webkit-border-radius: 8px;
@@ -1892,7 +1892,7 @@ a.newer-posts:hover {
 }
 
 .contact-section button:hover {
-  background-color: #30749a;
+  background-color: rgb(30.2075, 138.3925, 112.4);
   -webkit-transform: translateY(-1px);
       -ms-transform: translateY(-1px);
           transform: translateY(-1px);
