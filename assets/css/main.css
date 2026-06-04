@@ -1854,6 +1854,10 @@ a.newer-posts:hover {
   content: none;
 }
 
+.learning-item:last-child {
+  grid-column: 1/-1;
+}
+
 @media (max-width: 768px) {
   .hero-avatar {
     display: none !important;
