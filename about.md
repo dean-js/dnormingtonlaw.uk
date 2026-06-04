@@ -17,22 +17,23 @@ As an adult, I’ve tackled my goals head-on. I have been channelizing my analyt
     <div class="learning-item">
       <h3>Certifications</h3>
       <ul>
-        <li>Certification 1</li>
-        <li>Certification 2</li>
+        <li>FreeCodeCamp</li>
+        <li>Other course Provider</li>
       </ul>
     </div>
     <div class="learning-item">
       <h3>Courses & Studies</h3>
       <ul>
-        <li>Course 1</li>
-        <li>Course 2</li>
+        <li>NCFE Level 3 In cybersecurity systems</li>
+        <li>Computing (HNC)</li>
+        <li>ICT (GCSE)</li>
       </ul>
     </div>
     <div class="learning-item">
       <h3>Extracurricular Activities</h3>
       <ul>
-        <li>Activity 1</li>
-        <li>Activity 2</li>
+        <li>Personal Projects</li>
+        <li>Other work experience</li>
       </ul>
     </div>
   </div>
