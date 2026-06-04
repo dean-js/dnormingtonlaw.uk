@@ -21,6 +21,10 @@ description: "Discover the projects that support Dean's transition from law to t
     <h3>Cisco Cybersecurity Learning</h3>
     <p>A free Online cybersecurity through Cisco Academy labs, network security exercises, and practical defensive techniques.</p>
   </a>
+  <a class="project-card" href="{{ '/projects/home-lab-project/' | relative_url }}">
+    <h3>Home Lab Project</h3>
+    <p>Hands-on home lab experiments, network setups, defensive tooling, and documentation of practical security learning.</p>
+  </a>
   </div>
   <!-- Add project details here -->
 </section>
