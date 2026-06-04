@@ -807,6 +807,22 @@ table tfoot td {
   text-decoration: none;
 }
 
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .nav-logo-avatar {
   width: 28px;
   height: 28px;
@@ -965,10 +981,10 @@ textarea:focus-visible {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

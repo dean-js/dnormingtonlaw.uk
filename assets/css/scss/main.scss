@@ -185,6 +185,16 @@ table tfoot td {
   text-decoration: none;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .nav-logo-avatar {
   width: 28px;
   height: 28px;
