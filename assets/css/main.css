@@ -1774,7 +1774,7 @@ a.newer-posts:hover {
 
 .learning-path {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1839,7 +1839,7 @@ a.newer-posts:hover {
 }
 
 .learning-item li {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -1854,6 +1854,42 @@ a.newer-posts:hover {
   content: none;
 }
 
+@media (max-width: 768px) {
+  .hero-avatar {
+    display: none !important;
+  }
+  .hero,
+  .hero-content,
+  .hero-content h1,
+  .hero-content p,
+  .hero-content .hero-tagline,
+  .learning-path,
+  .learning-item {
+    text-align: left;
+  }
+  .hero-content {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hero-content h1 {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    line-height: 1.1;
+  }
+  .hero-content p,
+  .hero-content .hero-tagline {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  .learning-path {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .learning-item {
+    padding: 1.5rem;
+  }
+}
 .contact-section {
   background: rgba(8, 11, 18, 0.98);
   padding: 3rem 1.25rem;
