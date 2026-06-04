@@ -966,6 +966,15 @@ textarea:focus-visible {
   text-align: center;
 }
 
+.hero-content,
+.hero-content h1,
+.hero-content p,
+.hero-content ul,
+.hero-content li {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
 .hero-content ul {
   margin: 0;
   padding: 0;
@@ -1117,7 +1126,7 @@ textarea:focus-visible {
   font-size: 3rem;
   color: #f8fafc;
   margin-bottom: 1rem;
-  font-weight: 300;
+  font-weight: inherit;
 }
 
 .hero-content p {
