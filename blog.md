@@ -24,7 +24,7 @@ description: "Thoughts, learning notes, and updates on legal technology, cyberse
 {% assign featured_categories = "Legal Tech,Software Development,Cybersecurity" | split: "," %}
 {% for category in featured_categories %}
 {% assign slug = category | downcase | replace: " ", "-" %}
-{% assign category_posts = site.posts | where_exp: "post", "post.tags contains category" %}
+{% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
 
 <section id="{{ slug }}" class="category-section">
   <h2>{{ category }}</h2>
