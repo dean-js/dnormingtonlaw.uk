@@ -89,3 +89,31 @@
     }
   }
 }
+
+.page-share-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid $dark-gray;
+  padding-top: 1.5rem;
+}
+
+.comment-area {
+  margin: 2rem 0 4rem;
+  padding: 1.5rem;
+  background: rgba(6, 8, 14, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+}
+
+.comment-wrapper {
+  min-height: 140px;
+}
+
+.comment-note {
+  color: $body-color;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.comment-area a {
+  color: $accent;
+}

@@ -19,6 +19,8 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y, %b %d' }}</time></div>
       </header>
+      {% capture share_url %}{{ site.url }}{{ page.url | relative_url }}{% endcapture %}
+      {% capture email_body %}Check out this post: {{ share_url }}{% endcapture %}
       {{content | markdownify}}
       <div class="page-footer">
         <div class="page-share">
@@ -33,6 +35,13 @@ layout: main
         </div>
       </div>
       {% include disqus.html %}
+      <div class="page-share page-share-bottom">
+        <p>Share this post:</p>
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ share_url | uri_escape }}" title="Share on X" rel="nofollow" target="_blank">X</a>
+        <a href="https://facebook.com/sharer.php?u={{ share_url | uri_escape }}" title="Share on Facebook" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
+        <a href="https://bsky.app/" title="Share on Bluesky" rel="nofollow noopener noreferrer" target="_blank">Bluesky</a>
+        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ email_body | uri_escape }}" title="Share via email" rel="nofollow">Email</a>
+      </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
