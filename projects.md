@@ -25,6 +25,10 @@ description: "Discover the projects that support Dean's transition from law to t
     <h3>Home Lab Project</h3>
     <p>Hands-on home lab experiments, network setups, defensive tooling, and documentation of practical security learning.</p>
   </a>
+  <a class="project-card" href="{{ '/projects/private-ai-workstation/' | relative_url }}">
+    <h3>My Private AI Workstation</h3>
+    <p>A dedicated AI research and development environment for building secure automation, generative tooling, and productivity workflows with a private-first approach.</p>
+  </a>
   </div>
   <!-- Add project details here -->
 </section>
