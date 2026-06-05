@@ -5,7 +5,7 @@ date: 2026-03-20 17:05:00 +0000
 description: A personal reflection on transitioning from law to computing as a mature student, overcoming academic setbacks, and building a new career path.
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [university, computing, career-change]
+tags: [Software Devlopment, computing, Cybersecurity , career-change]
 ---
 
 ## Transitioning from Law to Computing

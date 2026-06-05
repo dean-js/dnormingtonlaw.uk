@@ -5,7 +5,8 @@ date: 2026-03-24 17:05:00 +0000
 description: A personal reflection on starting level 3 short course in cyber security practices
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Cybersecurity, computing, Career]
+tags: [Cybersecurity, computing, Career Change]
+Catergory: Cybersecurity
 ---
 
 ## Why Cybersecurity?
