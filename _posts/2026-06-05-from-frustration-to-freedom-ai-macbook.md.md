@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Frustration to Freedom: How I Built a Private AI Workstation on My Old MacBook"
-date: 2026-06-05 23:05:00 +0000
+date: 2026-06-05 
 categories:
   - Software Development
 tags:
