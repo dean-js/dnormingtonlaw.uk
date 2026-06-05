@@ -2,7 +2,7 @@
 layout: post
 title: "Your Post Title Here"
 date: 2026-06-04 23:05:00 +0000
-categories: [Software Development] # Options: [Legal Tech], [Software Development], [Cybersecurity]
+categories: [Software Development] # Options: [Legal Tech], [Software Development], [Cybersecurity], [Tech Projects], [Portfolio Posts]
 tags: [coding, portfolio, learning-notes]
 description: "A quick 1-2 sentence summary of what this post covers."
 published: false
