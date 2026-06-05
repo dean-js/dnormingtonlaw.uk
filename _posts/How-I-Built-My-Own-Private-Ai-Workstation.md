@@ -11,8 +11,7 @@ tags:
     ollama,
     local-ai,
     Artifical Intelligence,
-    macbook,
-    privacy,
+    macbook privacy,
     open-source,
     AI,
   ]
