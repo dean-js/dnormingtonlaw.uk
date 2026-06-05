@@ -329,3 +329,26 @@ textarea:focus-visible {
   max-width: 840px;
   margin: 0 auto;
 }
+
+/* Layout overrides: remove sidebar and center main content sitewide */
+#main-content,
+.wrapper,
+.content-box {
+  margin: 0 auto !important;
+  max-width: 1200px !important;
+  width: 100% !important;
+  float: none !important;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ensure any grid/flex children do not reserve space for the sidebar */
+.main,
+.site-main,
+.page-content {
+  width: 100% !important;
+  margin-left: 0 !important;
+}

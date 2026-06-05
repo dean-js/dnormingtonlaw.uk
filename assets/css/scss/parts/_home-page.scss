@@ -367,22 +367,6 @@
   color: $dark-gray;
   padding: 1rem 0;
 }
-
-.sidebar {
-  display: none;
-  left: 0;
-  bottom: 0;
-  width: 240px;
-  height: 100%;
-  padding: 20px 10px;
-  background-color: $dark;
-  .navbar,
-  .nav-menu,
-  .nav-item,
-  .nav-link {
-    color: $text;
-  }
-}
 .about {
   margin: 0 0 40px;
   text-align: center;
