@@ -6,7 +6,7 @@ description: A personal reflection on starting level 3 short course in cyber sec
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Cybersecurity, computing, Career Change]
-Catergory: Cybersecurity
+Catergories: Cybersecurity
 ---
 
 ## Why Cybersecurity?

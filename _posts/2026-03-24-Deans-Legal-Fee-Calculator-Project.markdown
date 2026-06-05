@@ -6,6 +6,7 @@ description: A personal insight and reflection on Creating Legal Fee calculator 
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Projects, Law, Application, Legal, Portfolio, Legal Tech]
+catergories: [Portfolio Posts]
 ---
 
 ## Why Did I Create Deans Legal Fee calcualtor?

@@ -6,6 +6,7 @@ description: A personal reflection on transitioning from law to computing as a m
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Software Devlopment, computing, Cybersecurity , career-change]
+catergories:
 ---
 
 ## Transitioning from Law to Computing
