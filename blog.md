@@ -13,7 +13,7 @@ description: "Thoughts, learning notes, and updates on legal technology, cyberse
   <div class="blog-filter">
     <p>Jump to:</p>
     <div class="filter-buttons">
-      {% assign featured_categories = "Legal Tech,Software Development,Cybersecurity" | split: "," %}
+      {% assign featured_categories = "Legal Tech,Software Development,Cybersecurity,Tech Projects" | split: "," %}
       {% for category in featured_categories %}
         <a class="filter-pill" href="#{{ category | downcase | replace: " ", "-" }}">{{ category }}</a>
       {% endfor %}
@@ -21,7 +21,7 @@ description: "Thoughts, learning notes, and updates on legal technology, cyberse
     </div>
   </div>
 
-{% assign featured_categories = "Legal Tech,Software Development,Cybersecurity" | split: "," %}
+{% assign featured_categories = "Legal Tech,Software Development,Cybersecurity,Tech Projects" | split: "," %}
 {% for category in featured_categories %}
 {% assign slug = category | downcase | replace: " ", "-" %}
 {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
