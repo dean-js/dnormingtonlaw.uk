@@ -19,8 +19,8 @@ social-linkedin: deannormlawuk # add your Linkedin handle
 social-email: dean.normington94@law.ac.uk # add your Email address
 
 # Disqus
-disqus_shortname: "dnormingtonlawuk"
-discus-identifier: # legacy alias for Disqus identifier; prefer disqus_shortname
+# disqus_shortname: "your-shortname"
+# discus-identifier: # legacy alias for Disqus identifier; prefer disqus_shortname
 
 # Tracker
 analytics: # Google Analytics
