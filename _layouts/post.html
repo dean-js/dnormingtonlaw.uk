@@ -23,13 +23,6 @@ layout: main
       {% capture email_body %}Check out this post: {{ share_url }}{% endcapture %}
       {{content | markdownify}}
       <div class="page-footer">
-        <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on X" rel="nofollow" target="_blank">X</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" title="Share on LinkedIn" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
-          <a href="https://bsky.app/" title="Share on Bluesky" rel="nofollow noopener noreferrer" target="_blank">Bluesky</a>
-          <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ email_body | uri_escape }}" title="Share via email" rel="nofollow">Email</a>
-        </div>
         <div class="page-tag">
           {% for tag in page.tags %}
             <a href="{{ '/tags/' | relative_url }}#{{tag}}" class="tag">&#35; {{ tag }}</a>
@@ -38,10 +31,11 @@ layout: main
       </div>
       <div class="page-share page-share-bottom">
         <p>Share this post:</p>
-        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ share_url | uri_escape }}" title="Share on X" rel="nofollow" target="_blank">X</a>
-        <a href="https://facebook.com/sharer.php?u={{ share_url | uri_escape }}" title="Share on Facebook" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
-        <a href="https://bsky.app/" title="Share on Bluesky" rel="nofollow noopener noreferrer" target="_blank">Bluesky</a>
-        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ email_body | uri_escape }}" title="Share via email" rel="nofollow">Email</a>
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ share_url | uri_escape }}" title="Share on X" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> X</a>
+        <a href="https://facebook.com/sharer.php?u={{ share_url | uri_escape }}" title="Share on Facebook" rel="nofollow noopener noreferrer" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | uri_escape }}" title="Share on LinkedIn" rel="nofollow noopener noreferrer" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        <a href="https://bsky.app/" title="Share on Bluesky" rel="nofollow noopener noreferrer" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i> Bluesky</a>
+        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ email_body | uri_escape }}" title="Share via email" rel="nofollow"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a>
       </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
