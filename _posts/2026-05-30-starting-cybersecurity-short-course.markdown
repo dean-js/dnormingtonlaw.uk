@@ -5,8 +5,8 @@ date: 2026-03-24 17:05:00 +0000
 description: A personal reflection on starting level 3 short course in cyber security practices
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+categories: [Cybersecurity]
 tags: [Cybersecurity, computing, Career Change]
-Catergories: Cybersecurity
 ---
 
 ## Why Cybersecurity?
@@ -19,13 +19,14 @@ I believe this cybersecurity course will provide me with the foundational theory
 
 ## What Will I Be Learning?
 
-The course is delivered entirely online. The curriculum is accessible through an online learning platform, and our live classes are conducted via Zoom. 
+The course is delivered entirely online. The curriculum is accessible through an online learning platform, and our live classes are conducted via Zoom.
 
 Some of the key topics include:
-* **Fundamentals** – Core principles and terminology
-* **Network Security & Infrastructure**
-* **Ethical Hacking & Pentesting Techniques**
-* **Career Development**
+
+- **Fundamentals** – Core principles and terminology
+- **Network Security & Infrastructure**
+- **Ethical Hacking & Pentesting Techniques**
+- **Career Development**
 
 There is a lot more covered in the syllabus, and I will be keeping this blog updated with my progress as I move through the material.
 
@@ -35,9 +36,9 @@ There is a lot more covered in the syllabus, and I will be keeping this blog upd
 
 My main goals for this project are:
 
-* **Understanding the fundamentals** and successfully putting them into practice.
-* **Mastering new software** – Getting hands-on experience with virtual machines and other tools that I used to find challenging to adapt to.
-* **Employment** – Leveraging this initial certification to showcase my skills and secure a role in the field.
+- **Understanding the fundamentals** and successfully putting them into practice.
+- **Mastering new software** – Getting hands-on experience with virtual machines and other tools that I used to find challenging to adapt to.
+- **Employment** – Leveraging this initial certification to showcase my skills and secure a role in the field.
 
 ---
 

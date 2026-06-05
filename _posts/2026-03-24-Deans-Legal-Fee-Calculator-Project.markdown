@@ -5,8 +5,8 @@ date: 2026-03-24 17:05:00 +0000
 description: A personal insight and reflection on Creating Legal Fee calculator - A simple but Effcient Calculator application for the legal industry accounting and invoicing
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+categories: [Legal Tech, Portfolio Posts]
 tags: [Projects, Law, Application, Legal, Portfolio, Legal Tech]
-catergories: [Portfolio Posts]
 ---
 
 ## Why Did I Create Deans Legal Fee calcualtor?
@@ -59,7 +59,7 @@ The Features I want to improve and Add in future to create Deans Legal Fee Calcu
 - VAT Toggle - small patch fix
 - Adding different types of legal personel - for example a senior adding a juniors rates within caseload - major update (v1.10)
 - chnage disbursements - add Stamp duty tax and more options on disubrsement section
-- more professional but minimal user interface maintaining functionality and ease of use 
+- more professional but minimal user interface maintaining functionality and ease of use
 
 ## Conclusion
 
