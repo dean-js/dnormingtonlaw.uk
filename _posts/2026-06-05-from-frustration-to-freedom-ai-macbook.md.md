@@ -1,20 +1,19 @@
 ---
 layout: post
 title: "From Frustration to Freedom: How I Built a Private AI Workstation on My Old MacBook"
-date: 2026-06-05 23:05:00 +0000
-categories: [Software Development] # Options: [Legal Tech], [Software Development], [Cybersecurity]
+date: 2026-06-04 23:05:00 +0000
+categories:
+  - Software Development
 tags:
-  [
-    coding,
-    portfolio,
-    learning-notes,
-    ollama,
-    local-ai,
-    Artifical Intelligence,
-    macbook privacy,
-    open-source,
-    AI,
-  ]
+  - coding
+  - portfolio
+  - learning-notes
+  - ollama
+  - local-ai
+  - Artifical Intelligence
+  - macbook privacy
+  - open-source
+  - AI
 description: "A personal case study on calibrating llama3.2:3b and Page Assist to run entirely offline on a 2014 Dual-Core i5 MacBook Pro with 16GB RAM."
 published: true
 ---
