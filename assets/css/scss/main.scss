@@ -352,3 +352,79 @@ textarea:focus-visible {
   width: 100% !important;
   margin-left: 0 !important;
 }
+
+/* ==========================================================================
+   Education Timeline Styles (About Page)
+   ========================================================================== */
+
+.education-timeline {
+  position: relative;
+  padding-left: 30px;
+  margin: 30px 0 50px 0;
+}
+
+/* The vertical track line */
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+  width: 2px;
+  background: #19cc8b; /* Your signature teal/green brand color */
+}
+
+.timeline-block {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* The glowing indicator node */
+.timeline-dot {
+  position: absolute;
+  left: -30px;
+  top: 22px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #19cc8b;
+  border: 2px solid #0b0c10; /* Matches your exact deep site background color */
+  box-shadow: 0 0 8px rgba(25, 204, 139, 0.6);
+  z-index: 2;
+}
+
+/* Timeline data container blocks */
+.timeline-card {
+  background: #11141a; /* Matches the background shade of your existing cards */
+  border: 1px solid #1f232d;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.timeline-date {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #19cc8b;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.timeline-card h3 {
+  margin: 0 0 2px 0 !important;
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.timeline-institution {
+  font-size: 0.85rem;
+  color: #7a828e;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.timeline-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #c5c6c7;
+  line-height: 1.5;
+}
