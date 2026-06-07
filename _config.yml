@@ -1,7 +1,7 @@
 title: Dean Normington | Software Developer & Cybersecurity
 tagline: Transitioning from law to computing through software development, cybersecurity, and legal tech.
 description: > # this means to ignore newlines until "baseurl:"
-  Personal portfolio and technical blog ddocumenting transition from law to tech sector, learning Software Engineering, Web development, and Cybersecurity solutions.
+  Personal portfolio and technical blog documenting transition from law to tech sector, learning Software Engineering, Web development, and Cybersecurity solutions.
 keywords: "Dean Normington, software developer, cybersecurity, legal tech, portfolio, full stack development, network security, FocusTask, entry level developer, tech blog, UK developer"
 permalink: "/title/"
 permalink: ":title/"
