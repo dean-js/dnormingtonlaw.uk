@@ -133,8 +133,64 @@
   color: $accent;
   margin-bottom: 1rem;
   font-weight: inherit;
-  font-family: "PT Serif", serif;
+  font-family: "Playfair Display", "PT Serif", serif;
   line-height: 1.05;
+}
+
+/* Education timeline styles - matches site theme */
+.education-timeline {
+  max-width: 1100px;
+  margin: 1.5rem auto 2rem;
+  padding: 0 1rem;
+}
+.timeline-block {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+.timeline-dot {
+  flex: 0 0 14px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: $accent;
+  margin-top: 6px;
+  box-shadow: 0 0 0 4px rgba(43,197,160,0.07);
+}
+.timeline-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  color: $white;
+}
+.timeline-date {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: $dark-gray;
+  margin-bottom: 0.25rem;
+}
+.timeline-card h3 {
+  margin: 0 0 0.25rem;
+  color: $accent;
+  font-weight: 500;
+}
+.timeline-institution {
+  display: block;
+  color: $body-color;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .timeline-block {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .timeline-dot {
+    margin-top: 0;
+  }
 }
 
 .hero-content p {
