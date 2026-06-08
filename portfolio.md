@@ -1,7 +1,7 @@
 ---
 layout: main
-title: Portfolio
-description: "Explore Dean Normington's software development and legal technology portfolio featuring real-world project work and learning outcomes."
+title: Featured Portfolio | Dean Normington
+description: "A curated gallery of my finished applications showcasing my core software engineering skills, responsive web development, and secure development practices."
 ---
 
 <section class="portfolio-grid">

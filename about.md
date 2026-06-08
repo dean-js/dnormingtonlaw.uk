@@ -1,7 +1,7 @@
 ---
 layout: main
-title: About
-description: "About Dean Normington, a law graduate building software, cybersecurity skills, and legal technology projects."
+title: About Me | Dean Normington
+description: "My journey dropping out of law to pivot back to my passion for IT. Read about my training background, NCFE Level 3 cybersecurity studies, and software development goals."
 ---
 
 <section class="page-section about-section">

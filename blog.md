@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Blog
-description: "Thoughts, learning notes, and updates on legal technology, cybersecurity, and software development from Dean Normington."
+description: "An evolving notebook of my technical interests. Read my thoughts on current cybersecurity studies, articles I find interesting, and reflections on my past and current projects and much more."
 ---
 
 <section class="blog-section">
