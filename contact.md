@@ -1,7 +1,7 @@
 ---
 layout: main
-title: Contact
-description: "Contact Dean Normington for legal tech work, software development collaboration, or cybersecurity learning opportunities."
+title: Contact & Connect | Dean Normington
+description: "Get in touch with me for collaborations, technical discussions, or opportunities in software development, IT support, and website development across commercial and local business projects."
 ---
 
 <section class="contact-section">

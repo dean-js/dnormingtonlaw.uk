@@ -1,7 +1,7 @@
 ---
 layout: main
-title: Projects
-description: "Discover the projects that support Dean's transition from law to tech, including legal tech tools, cybersecurity practice, and development work."
+title: Projects | Dean Normington
+description: "A diverse repository of my technical work, featuring a wide variety of coding applications, web development projects, and hands-on cybersecurity studies."
 ---
 
 <section class="projects-section">
