@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Blog
+title: Blog | Dean Normington
 description: "An evolving notebook of my technical interests. Read my thoughts on current cybersecurity studies, articles I find interesting, and reflections on my past and current projects and much more."
 ---
 
