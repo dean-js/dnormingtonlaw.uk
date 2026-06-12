@@ -29,6 +29,20 @@ description: "A diverse repository of my technical work, featuring a wide variet
     <h3>My Private AI Workstation</h3>
     <p>A dedicated AI research and development environment for building secure automation, generative tooling, and productivity workflows with a private-first approach.</p>
   </a>
+  <a class="project-card" href="{{ '/projects/cybersecurity-fundamentals/' | relative_url }}">
+    <h3>Cybersecurity Fundamentals</h3>
+    <p>Structured learning path covering defensive and offensive fundamentals — TryHackMe and HackTheBox guided tracks with lab setup and portfolio tips.</p>
+  </a>
+
+  <a class="project-card" href="{{ '/projects/python-fundamentals/' | relative_url }}">
+    <h3>Python Fundamentals</h3>
+    <p>Practical Python learning focused on scripting, automation and small tools (example: a basic port scanner), with testing and packaging guidance.</p>
+  </a>
+
+  <a class="project-card" href="{{ '/projects/raspberry-pi-projects/' | relative_url }}">
+    <h3>Raspberry Pi Projects</h3>
+    <p>Hands-on Raspberry Pi builds for home-lab, portable testing, and IoT prototypes — hardware tips, network setup and automation examples.</p>
+  </a>
   </div>
   <!-- Add project details here -->
 </section>
