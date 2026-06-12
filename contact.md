@@ -41,6 +41,7 @@ description: "Get in touch with me for collaborations, technical discussions, or
         <button class="button-primary" type="submit">Send Message</button>
       </form>
     </div>
+
   </div>
 
   <hr />
