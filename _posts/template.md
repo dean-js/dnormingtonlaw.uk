@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Post Title Here"
+title: "intorduction to cybersecurity training - 1st week using tryhackme"
 date: 2026-06-04 23:05:00 +0000
 categories: [Software Development] # Options: [Legal Tech], [Software Development], [Cybersecurity], [Tech Projects], [Portfolio Posts]
 tags: [coding, portfolio, learning-notes]
