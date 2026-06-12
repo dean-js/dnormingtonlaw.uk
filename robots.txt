@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://dnormingtonlaw.uk/sitemap.xml
-Host: https://dnormingtonlaw.uk
+Sitemap: https://deannormington.dev/sitemap.xml
+Host: https://deannormington.dev

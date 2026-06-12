@@ -6,7 +6,7 @@ keywords: "Dean Normington, software developer, cybersecurity, legal tech, portf
 permalink: "/title/"
 permalink: ":title/"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dnormingtonlaw.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://deannormington.dev" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
