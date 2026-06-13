@@ -662,6 +662,22 @@ a.newer-posts:hover {
   margin-bottom: 1rem;
 }
 
+/* Optional thumbnail support for project cards */
+.project-card__thumb {
+  width: 100%;
+  height: 160px;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* If a card contains a thumbnail, ensure content spacing is consistent */
+.project-card.has-thumb {
+  padding-top: 1rem;
+}
+
 .project-link {
   color: $accent;
   text-decoration: none;
